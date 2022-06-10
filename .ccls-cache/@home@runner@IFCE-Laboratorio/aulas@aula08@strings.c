@@ -12,10 +12,10 @@ int main(){
   
   printf("Digite outro texto: \n");
   scanf("%[^\n]", str2);
-  
-  strcat(str1, str2);
 
-  printf("%s\n", str1);
+    str[strlen(str) - c] = '\0';
+    printf("%s", str);
+
   
   return 0;
 }
